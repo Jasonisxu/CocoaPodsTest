@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint JasonCocoaPodsTest.podspec' to ensure this is a
+#  Be sure to run `pod spec lint CocoaPodsTest.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,18 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "JasonCocoaPodsTest"
+  s.name         = "CocoaPodsTest"
   s.version      = "0.0.1"
-  s.summary      = "JasonCocoaPodsTest是一个仓库集成测试"
+  s.summary      = "CocoaPodsTest是一个仓库集成测试"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "JasonCocoaPodsTest是一个仓库集成测试"
+  s.description  = "CocoaPodsTest是一个仓库集成测试"
 
-  s.homepage     = "https://github.com/Jasonisxu/JasonCocoaPodsTest"
+  s.homepage     = "https://github.com/Jasonisxu/CocoaPodsTest"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Jasonisxu/JasonCocoaPodsTest.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Jasonisxu/CocoaPodsTest.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JasonCocoaPodsTest/*.{h,m}"
+  s.source_files  = "CocoaPodsTest/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
